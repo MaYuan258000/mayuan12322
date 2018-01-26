@@ -1,0 +1,41 @@
+
+@import "icon";
+@import "icon_1";
+@import "mimad";
+@import "btn";
+
+#app,.weapper,html,body{
+    width: 100%;
+    height: 100%;
+
+}
+html,body,p,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flexBox{
+    display: flex;
+}
+.flex1{
+    flex: 1;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexCol{
+    flex-direction: column;
+}
+.top{
+    width: 100%;
+    height: 5rem;
+    background: #ca3232;
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    width: 100%;
+  
+}
